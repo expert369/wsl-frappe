@@ -49,11 +49,26 @@ Step 1 - Create a site in Frappe Bench
 ```
 bench new-site pejay.com
 ```
+Set the default site
+```
+bench use pejay.com
+```
 
 Step 2 - Install ERPNext latest version in bench & site
 ```
 bench get-app erpnext
 bench --site pejay.com install-app erpnext
+bench start
+```
+
+Step 3 - Create and Install a Custom App
+```
+bench new-app custom_app_name
+bench --site my-site.local install-app custom_app_name
+```
+
+Step 4 - Start the bench
+```
 bench start
 ```
 
