@@ -38,6 +38,24 @@ Run this command to turn the WSL again.
 ```
 ubuntu
 ```
+Go to the directory of frappe-bench
+```
+cd frappe-bench15
+bench start
+```
+Next Step is to create new Project. First we need to create a new-site and new-app
+
+Step 1 - Create a site in Frappe Bench
+```
+bench new-site pejay.com
+```
+
+Step 2 - Install ERPNext latest version in bench & site
+```
+bench get-app erpnext
+bench --site pejay.com install-app erpnext
+bench start
+```
 
 ## Credentials
 MariaDB
