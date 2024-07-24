@@ -45,7 +45,7 @@ Go to the directory of frappe-bench
 cd frappe-bench15
 bench start
 ```
-Next Step is to create new Project. First we need to create a new-site and new-app
+## Next Step is to create new Project. First we need to create a new-site and new-app
 
 Step 1 - Create a site in Frappe Bench
 ```
