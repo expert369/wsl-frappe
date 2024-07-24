@@ -19,6 +19,8 @@ Enter a password when prompted.
 ## Install frappe installation script
 Clone the script.
 ```
+git clone https://github.com/expert369/wsl-frappe
+or 
 git clone https://github.com/iaiaian1/wsl-frappe
 ```
 ```
